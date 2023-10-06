@@ -1,0 +1,34 @@
+* {margin: 0; padding: 0; font-family: sans-serif;}
+ul {list-style: none;}
+a {text-decoration: none; color: #000;}
+.container {width: 85%; margin: 0 auto;}
+.d-flex {display: flex; justify-content: space-between;}
+
+
+
+.privacy-hero {margin-top: 100px; background-color: #f5f5f5; height: auto;}
+.prv {margin: 80px 0 50px 0;}
+
+.privacy-hero .prv span {
+    color: #fff;
+    background-color: #000;
+    padding: 15px 30px;
+    margin-right: 40px;
+}
+.privacy-hero .prv a {
+    background-color: #fff;
+    border: 3px solid #000;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+.privacy-hero .prv a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+.privacy-hero .intro {text-align: justify; margin-bottom: 80px;}
+
+
+
+
+

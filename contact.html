@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    
+<!--
+    <header>
+        <div class="container d-flex">
+            <div class="logo">
+                <img src="img/CarVilla -white.png" alt="logo CarVilla" width="150px">
+            </div>
+
+            <div class="links">
+                <ul class="d-flex">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../html/service.html">Service</a></li>
+                    <li><a href="../html/featured-cars.html">Featured cars</a></li>
+                    <li><a href="../../index.html#new-cars">New cars</a></li>
+                    <li><a href="../../index.html#brand">Brands</a></li>
+                    <li><a href="../../index.html#Team">Team</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>-->
+
+
+    <section class="contact">
+        <div class="container">
+
+            <form> 
+                <div class="d-flex two-input" style="background-color: transparent; border: 0; ">
+                    <div class="in-relative">
+                        <input type="text"required placeholder="Entre Votre Nom" maxlength="20">
+                    </div>
+                    <div class="in-relative-2 d-flex" style="align-items: center;">
+                        <span>+212</span>
+                        <input type="tel" minlength="10" maxlength="10" required placeholder="06 00 00 00 00"> 
+                    </div>
+                </div>
+
+                <div>
+                    <input type="email" required placeholder="Entrer Votre Email">
+                </div>
+
+                <div>
+                    <input type="text" required placeholder="Entrer Le Suject De Votre Message"> 
+                </div>
+
+                <div class="area">
+                    <textarea placeholder="Entrer Votre Message" required></textarea>
+                </div>
+
+                <section class="d-flex" style="align-items: center;">
+                    <section class="ch-relative" style="align-items: center;">
+                        <input type="checkbox" id="v-terms" required>
+                        <label for="v-terms">
+                            I Agree I Have Read CarVilla <a href="">Privcy Policy</a>
+                        </label>
+                    </section>
+
+                    <button type="submit">Send</button>
+                </section>
+
+
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,79 @@
+* {margin: 0; padding: 0; font-family: sans-serif;}
+ul {list-style: none;}
+a {text-decoration: none;}
+.container {width: 85%; margin: 0 auto;}
+.d-flex {display: flex; justify-content: space-between;}
+
+.contact .container{
+    margin-top: 100px;
+}
+/* =================== */
+.contact form div {
+    height: 50px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    border: 3px solid #000;
+}
+.contact form div input,
+.contact form div textarea {
+    margin-left: 30px;
+}
+.contact form div input,
+.contact form div textarea {
+    width: calc(100% - 40px);
+    height: 45px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0 0 0;
+}
+.contact form .area {height: 130px;}
+.contact form div textarea {margin-top: 15px; height: 100px;} 
+.in-relative {width: 48%;}
+.in-relative-2 {width: 48%;}
+.contact span {
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
+.contact button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: #fff;
+    transition-duration: 1s;
+    color: #000;
+}
+.contact section label { font-size: 18px; font-weight: 600;}
+.contact section input {width: 20px;}
+
+
+@media screen and (max-width: 700px) {
+    .contact form div input,
+    .contact form div textarea {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact span {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .contact button {
+        padding: 8px 25px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .contact section label { font-size: 15px;}
+}
